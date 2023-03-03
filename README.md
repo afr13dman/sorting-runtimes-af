@@ -119,9 +119,9 @@ $ python3 runtimes.py --max_x=22
 ```
 and copy/paste the resulting table into this README file below this line.
 
-+---------+-----------+--------------+--------------+
+|---------|-----------|--------------|--------------|
 | len(xs) |  timsort  | merge_sorted | quick_sorted |
-+---------+-----------+--------------+--------------+
+|---------|-----------|--------------|--------------|
 |    0    | 3.625e-06 |  2.775e-06   |  2.716e-06   |
 |    1    | 2.310e-06 |  9.339e-06   |  9.865e-06   |
 |    2    | 2.109e-06 |  1.522e-05   |  1.541e-05   |
@@ -145,7 +145,7 @@ and copy/paste the resulting table into this README file below this line.
 |    20   | 9.337e-01 |  1.691e+01   |  2.387e+01   |
 |    21   | 2.223e+00 |  3.693e+01   |  5.156e+01   |
 |    22   | 4.962e+00 |  7.595e+01   |  1.178e+02   |
-+---------+-----------+--------------+--------------+
+|---------|-----------|--------------|--------------|
 
 You should observe that python's built-in sort function is 10-100x faster than yours.
 All functions have the same wort-case asymptotic complexity (i.e. $\Theta(n \log n)$),
